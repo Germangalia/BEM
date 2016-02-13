@@ -5,7 +5,10 @@
     background: red
 
 
-.Breadcrumb_item
-  &:after
-    content: '\\'
-    padding: 0 5px
+  @at-root
+    &_item:after
+      content: '\\'
+      padding: 0 5px
+
+    &__other-child
+      color: green

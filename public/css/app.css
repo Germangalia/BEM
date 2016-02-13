@@ -2,9 +2,10 @@
   background: #dddddd; }
   .Breadcrumb--with-pipes {
     background: red; }
-
-.Breadcrumb_item:after {
-  content: '\\';
-  padding: 0 5px; }
+  .Breadcrumb_item:after {
+    content: '\\';
+    padding: 0 5px; }
+  .Breadcrumb__other-child {
+    color: green; }
 
 /*# sourceMappingURL=app.css.map */
