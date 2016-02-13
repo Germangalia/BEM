@@ -1,0 +1,10 @@
+.Breadcrumb {
+  background: #dddddd; }
+  .Breadcrumb--with-pipes {
+    background: red; }
+
+.Breadcrumb_item:after {
+  content: '\\';
+  padding: 0 5px; }
+
+/*# sourceMappingURL=app.css.map */
