@@ -1,11 +1,8 @@
 .Breadcrumb {
-  background: #dddddd; }
+  background: #ddd; }
   .Breadcrumb--with-pipes {
-    background: red; }
-  .Breadcrumb_item:after {
-    content: '\\';
-    padding: 0 5px; }
-  .Breadcrumb__other-child {
     color: green; }
+  .Breadcrumb__item {
+    color: red; }
 
 /*# sourceMappingURL=app.css.map */

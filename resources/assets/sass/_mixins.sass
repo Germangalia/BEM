@@ -1,3 +1,8 @@
-=e($mame)
-  @at-root &__$name
+=e($name)
+  @at-root #{&}__#{$name}
+    @content
+
+
+=m($name)
+  @at-root #{&}--#{$name}
     @content

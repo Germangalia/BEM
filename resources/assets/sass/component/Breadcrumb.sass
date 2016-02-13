@@ -1,14 +1,8 @@
 .Breadcrumb
-  background: #dddddd
+  background: #ddd
 
-  &--with-pipes
-    background: red
+  +m(with-pipes)
+    color: green
 
-
-  @at-root
-    &_item:after
-      content: '\\'
-      padding: 0 5px
-
-    &__other-child
-      color: green
+  +e(item)
+    color: red
